@@ -35,7 +35,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '', // Remove the title to prevent extra "TBR"
+      title: 'TBR', // Keep the title so it doesn't break
       logo: {
         alt: 'TBR Logo',
         src: 'img/logo.svg',
@@ -47,7 +47,7 @@ const config: Config = {
           position: 'left',
         },
       ],
-    },
+    },    
     footer: {
       style: 'dark',
       links: [
