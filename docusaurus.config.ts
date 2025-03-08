@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '', // Change label to TBR
+          label: 'TBR', // Change label to TBR
         },
       ],
     },
