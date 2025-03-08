@@ -68,9 +68,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'TBR', // Change site title to TBR
       logo: {
-        alt: 'My Site Logo',
+        alt: 'TBR Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,13 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: 'TBR', // Change label to TBR
         },
       ],
     },
@@ -119,16 +113,7 @@ const config: Config = {
         },
         {
           title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
+          items: [],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
@@ -138,6 +123,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-};
+}  
 
 export default config;
